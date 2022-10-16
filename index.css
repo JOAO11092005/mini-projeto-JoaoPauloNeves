@@ -1,0 +1,31 @@
+
+main.cartao {
+    width: 500px;
+    text-align: center;
+    border: 2px solid;  
+    background-color: aquamarine;
+}
+.abas {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.redes-sociais {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -30px;
+}
+.li-info {
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background: black;
+    text-align: center;
+
+}
+.aba:hover {
+    transition: 0.25s;
+    background-color: darkgoldenrod;
+}
